@@ -1,4 +1,3 @@
-```markdown
 # rm_serial_driver
 
 ROS2: 适用于RM的简易上位机串口通信程序。
