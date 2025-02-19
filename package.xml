@@ -1,0 +1,18 @@
+<package format="2">
+  <name>rm_serial_driver</name>
+  <version>0.0.0</version>
+  <description>ROS2 Humble Serial Driver</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>serial</depend>
+  <depend>rm_msgs</depend>  
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
