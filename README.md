@@ -64,7 +64,7 @@ colcon build
 source install/setup.bash
 ```
 
-## 注意
+## 注意事项
 
 ubuntu22需要卸载brltty
 
@@ -72,7 +72,14 @@ ubuntu22需要卸载brltty
 sudo apt remove brltty
 ```
 
-## 注意事项
-
+=将当前用户添加到 dialout 组
+```bash
+sudo usermod -a -G dialout $USER
+```
+-或者指定用户名
+```bash
+sudo usermod -a -G dialout your_username
+```
+-重新登录或重启系统使更改生效
 - 确保在修改协议和消息后重新编译项目。
 - 如果遇到问题，请检查串口连接和权限设置。
