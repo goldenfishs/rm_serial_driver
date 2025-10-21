@@ -64,6 +64,14 @@ colcon build
 source install/setup.bash
 ```
 
+## 注意
+
+ubuntu22需要卸载brltty
+
+```bash
+sudo apt remove brltty
+```
+
 ## 注意事项
 
 - 确保在修改协议和消息后重新编译项目。
